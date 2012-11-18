@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/CarrotCornCat/sprockets-cache-mongodb"
   s.summary     = %q{A MongoDB (GridFS) cache store for Sprockets}
   s.description = %q{A MongoDB (GridFS) cache store for Sprockets, built on the model of sprockets-cache-redis }
+  s.license     = "MIT"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
