@@ -8,17 +8,17 @@ A cache store for Sprockets which utilities MongoDB.
 Gemfile:
 
 ```ruby
-gem 'sprockets'
-gem 'sprockets-cache-mongodb'
+gem "sprockets"
+gem "sprockets-cache-mongodb"
 # ...
 ```
 
 config.ru:
 
 ```ruby
-require 'sprockets-cache-mongodb'
+require "sprockets-cache-mongodb"
 env = Sprockets::Environment.new
-env.cache = Sprockets::Cache::MongoDBStore.new(mongo, 'sprockets')
+env.cache = Sprockets::Cache::MongoDBStore.new(mongo, "sprockets")
 # ...
 ```
 
